@@ -14,9 +14,9 @@ const ListedBooks = () => {
            <details className="dropdown">
                 <summary className="m-1 btn bg-green-500">Filter by</summary>
                <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box ">
-                 <li onClick={() => handleJobsFilter('rating')}><a>Rating</a></li>
-                 <li onClick={() => handleJobsFilter('noOfPage')}><a>Number of pages</a></li>
-                 <li onClick={() => handleJobsFilter('publishYear')}><a>Publisher year</a></li>
+                 <li onClick={() => handleFilter('rating')}><a>Rating</a></li>
+                 <li onClick={() => handleFilter('noOfPage')}><a>Number of pages</a></li>
+                 <li onClick={() => handleFilter('publishYear')}><a>Publisher year</a></li>
                 </ul>
            </details>
        </div>
