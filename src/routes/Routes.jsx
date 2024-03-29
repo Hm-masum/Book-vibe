@@ -6,11 +6,13 @@ import ListedBooks from "../pages/ListedBooks";
 import PageToRead from "../pages/PageToRead";
 import ReadList from "../pages/ReadList";
 import WishList from "../pages/WishList";
+import ErrorPage from "../pages/ErrorPage";
 
 export const router = createBrowserRouter([
     {
       path: "/",
       element:<MainLayout></MainLayout>,
+      errorElement:<ErrorPage></ErrorPage>,
       children:[
         {
             path:'/',
